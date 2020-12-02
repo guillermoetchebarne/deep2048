@@ -65,7 +65,6 @@ for e in range(epochs):
     print("Epoch {:03d}/{:03d} | Loss {:.5f} | Steps {} | Max tile: {} | Epsilon {:.3f}".format(e, epochs, 
                 losses[-1], n_steps, round(2**(np.max(env.get_state())*10)),epsilon[e]))
     
-# Save trained model weights and architecture, this will be used by the visualization code
 print("Done training. Time elapsed: {:.2f} hours.".format((time() - ti)/3600))
 print("Saving model...")
 model.save("model")
