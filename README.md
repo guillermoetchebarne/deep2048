@@ -7,3 +7,5 @@ Logic.py implements the game's logic.
 Exp_replay.py implements the experience replay object to store training samples. 
 
 Models.py implements a simple MLP builder function using the keras functional API.
+
+Main.py implements the training loop.
